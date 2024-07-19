@@ -3,22 +3,18 @@ import Link from 'next/link';
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon, ChevronRightIcon } from '@heroicons/react/solid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faTwitter,
-  faInstagram,
-  faGithub
-} from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/test' },
-  { name: 'Contact', href: '/test' }
+  { name: 'About', href: '/about' },
+  { name: 'Contact', href: '/contact' }
 ];
 
 export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-white shadow-sm">
-      {({ open }) => (
+      {({ open, close }) => (
         <>
           <div className="max-w-7xl mx-auto px-8 lg:px-12">
             <div className="flex justify-between h-24">
@@ -54,18 +50,6 @@ export default function Navbar() {
                     )}
                   </Disclosure.Button>
                 </div>
-                <div className="hidden md:flex items-center">
-                  <Link href="/test">
-                    <a className="inline-flex items-center px-8 py-2 font-medium rounded-md text-zinc-400 hover:text-zinc-600 duration-300">
-                      <span>Sign In</span>
-                    </a>
-                  </Link>
-                  <Link href="/test">
-                    <a className="inline-flex items-center px-8 py-2 font-medium rounded-md text-white bg-gradient-to-r from-[#D9A94C] to-[#E136B8] shadow-rv shadow-red-500/50">
-                      <span>Sign Up</span>
-                    </a>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
@@ -77,6 +61,7 @@ export default function Navbar() {
                   <Disclosure.Button
                     as="a"
                     className="group flex justify-between cursor-pointer"
+                    onClick={() => close()} // Close the dropdown on link click
                   >
                     <span className="text-zinc-600 font-medium group-hover:translate-x-2 duration-300">
                       {name}
@@ -85,22 +70,6 @@ export default function Navbar() {
                   </Disclosure.Button>
                 </Link>
               ))}
-
-              <Link href="/test">
-                <a className="group flex justify-between">
-                  <span className="text-zinc-600 font-medium group-hover:translate-x-2 duration-300">
-                    Sign In
-                  </span>
-                </a>
-              </Link>
-
-              <div className="py-6">
-                <Link href="/test">
-                  <a className="w-full inline-flex items-center justify-center px-8 py-2 font-medium rounded-md text-white bg-gradient-to-r from-[#D9A94C] to-[#E136B8] shadow-rv shadow-red-500/50">
-                    <span>Sign Up</span>
-                  </a>
-                </Link>
-              </div>
 
               <div className="flex items-center justify-center space-x-6">
                 <a
