@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
         <div className="hs-carousel relative overflow-hidden w-full h-[30rem] md:h-[calc(100vh-106px)] bg-gray-100 rounded-2xl dark:bg-neutral-800">
           <div className="hs-carousel-body absolute top-0 bottom-0 left-0 flex flex-nowrap transition-transform duration-700 opacity-0">
             <div className="hs-carousel-slide w-full relative">
-              <div className="absolute inset-0 bg-black bg-opacity-50 z-10 flex flex-col items-center justify-center">
+              <div className="absolute inset-0 bg-black bg-opacity-50 z-10 flex flex-col items-center justify-center pb-72">
                 <h1 className="text-white lg:text-6xl text-4xl md:text-5xl font-bold">
                   MEKIYA ENTERPRISE
                 </h1>
@@ -40,7 +41,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="hs-carousel-slide w-full relative">
-              <div className="absolute inset-0 bg-black bg-opacity-50 z-10 flex flex-col items-center justify-center">
+              <div className="absolute inset-0 bg-black bg-opacity-50 z-10 flex flex-col items-center justify-center pb-72">
                 <h1 className="text-white  lg:text-6xl text-4xl md:text-5xl font-bold">
                   MEKIYA ENTERPRISE
                 </h1>
@@ -55,18 +56,19 @@ const Hero = () => {
                   Represents Mekiya Enterprise's foray into the healthcare sector. Renowned for its state-of-the-art facilities and world-class medical services.
                   </span>
                   <div className="mt-5">
+                    <Link href="/hospital">
                     <a
                       className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
-                      href="hospital"
                     >
                       Read More
-                    </a>
+                    </a>                    
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className="hs-carousel-slide w-full relative">
-              <div className="absolute inset-0 bg-black bg-opacity-50 z-10 flex flex-col items-center justify-center">
+              <div className="absolute inset-0 bg-black bg-opacity-50 z-10 flex flex-col items-center justify-center pb-72 md:pb-10">
                 <h1 className="text-white  lg:text-6xl text-4xl md:text-5xl font-bold">
                   MEKIYA ENTERPRISE
                 </h1>
