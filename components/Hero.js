@@ -87,7 +87,7 @@ const Hero = () => {
                 <h1 className="text-white lg:text-6xl text-4xl md:text-5xl font-bold">
                   MEKIYA ENTERPRISE
                 </h1>
-                <span className="text-white text-lg md:text-2xl mt-4 sm:hidden">
+                <span className="text-white text-lg md:text-2xl mt-4">
                   Building Trust, Driving Excellence!
                 </span>
               </div>
