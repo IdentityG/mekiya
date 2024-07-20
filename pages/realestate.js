@@ -4,7 +4,7 @@ const realestate = () => {
   return (
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div className="aspect-w-16 aspect-h-7">
-      <img className="w-full object-cover rounded-xl" src="/real.avif" alt="Image Description" />
+      <img className="w-full object-cover rounded-xl" src="/real.webp" alt="Image Description" />
     </div>
 
     <div className="mt-5 lg:mt-16">
