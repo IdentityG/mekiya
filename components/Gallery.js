@@ -11,21 +11,21 @@ const Gallery = () => {
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
       <div class="space-y-2">
         <img class="w-full h-auto object-cover" src="/adaa.jpg" alt="Image Description" />
-        <img class="w-full h-auto object-cover" src="/bale.avif" alt="Image Description" />
-        <img class="w-full h-auto object-cover" src="/real.avif" alt="Image Description" />
+        <img class="w-full h-auto object-cover" src="/bale.webp" alt="Image Description" />
+        <img class="w-full h-auto object-cover" src="/real.webp" alt="Image Description" />
       </div>
       <div class="space-y-2">
-        <img class="w-full h-auto object-cover" src="/rose.avif" alt="Image Description" />
+        <img class="w-full h-auto object-cover" src="/rose.webp" alt="Image Description" />
         <img class="w-full h-auto object-cover" src="/tower.jpg" alt="Image Description" />
       </div>
       <div class="space-y-2">
-        <img class="w-full h-auto object-cover" src="/agri.avif" alt="Image Description" />
-        <img class="w-full h-auto object-cover" src="/hos.avif" alt="Image Description" />
-        <img class="w-full h-auto object-cover" src="/real.avif" alt="Image Description" />
+        <img class="w-full h-auto object-cover" src="/agri.webp" alt="Image Description" />
+        <img class="w-full h-auto object-cover" src="/hos.webp" alt="Image Description" />
+        <img class="w-full h-auto object-cover" src="/real.webp" alt="Image Description" />
       </div>
       <div class="space-y-2">
         <img class="w-full h-auto object-cover" src="/adaa.jpg" alt="Image Description" />
-        <img class="w-full h-auto object-cover" src="/hos.avif" alt="Image Description" />
+        <img class="w-full h-auto object-cover" src="/hos.webp" alt="Image Description" />
       </div>
     </div>
   </div>

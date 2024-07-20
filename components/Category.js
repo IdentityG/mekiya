@@ -12,7 +12,7 @@ const Category = () => {
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-blue-600 rounded-t-xl">
-            <img src="/agri.avif" alt="Atlassian" className="h-full w-full object-cover rounded-t-xl" />
+            <img src="/agri.webp" alt="Atlassian" className="h-full w-full object-cover rounded-t-xl" />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
@@ -34,7 +34,7 @@ const Category = () => {
 
         <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-rose-500 rounded-t-xl">
-            <img src="/bale.avif" alt="Asana" className="h-full w-full object-cover rounded-t-xl" />
+            <img src="/bale.webp" alt="Asana" className="h-full w-full object-cover rounded-t-xl" />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-rose-600 dark:text-rose-500">
@@ -79,7 +79,7 @@ const Category = () => {
 
         <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-amber-500 rounded-t-xl">
-            <img src="/hos.avif" alt="Slack" className="h-full w-full object-cover rounded-t-xl" />
+            <img src="/hos.webp" alt="Slack" className="h-full w-full object-cover rounded-t-xl" />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-green-500">
@@ -102,7 +102,7 @@ const Category = () => {
 
         <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-purple-500 rounded-t-xl">
-            <img src="/real.avif" alt="Slack" className="h-full w-full object-cover rounded-t-xl" />
+            <img src="/real.webp" alt="Slack" className="h-full w-full object-cover rounded-t-xl" />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-teal-500">
@@ -125,7 +125,7 @@ const Category = () => {
 
         <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-amber-500 rounded-t-xl">
-            <img src="/rose.avif" alt="Slack" className="h-full w-full object-cover rounded-t-xl" />
+            <img src="/rose.webp" alt="Slack" className="h-full w-full object-cover rounded-t-xl" />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-rose-500">
