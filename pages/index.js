@@ -11,7 +11,7 @@ export default function Home() {
     <div>
     
       <Hero />
-      <main className="max-w-7xl mx-auto px-8 lg:px-10">
+      <main className="max-w-7xl mx-auto px-4 lg:px-10">
         <div className="mt-12">
           <Status /> 
           <Category /> 
