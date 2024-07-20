@@ -68,7 +68,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="hs-carousel-slide w-full relative">
-              <div className="absolute inset-0 bg-black bg-opacity-50 z-10 flex flex-col items-center justify-center pb-72 md:pb-10">
+              <div className="absolute inset-0 bg-black bg-opacity-50 z-10 flex flex-col items-center justify-center pb-72">
                 <h1 className="text-white  lg:text-6xl text-4xl md:text-5xl font-bold">
                   MEKIYA ENTERPRISE
                 </h1>
